@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0BE90A1D29A7CC350095C17F /* lookbook_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE90A1C29A7CC350095C17F /* lookbook_appApp.swift */; };
-		0BE90A1F29A7CC350095C17F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE90A1E29A7CC350095C17F /* ContentView.swift */; };
 		0BE90A2129A7CC360095C17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE90A2029A7CC360095C17F /* Assets.xcassets */; };
 		0BE90A2429A7CC360095C17F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE90A2329A7CC360095C17F /* Preview Assets.xcassets */; };
+		0BE90A2D29A7D07B0095C17F /* LookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE90A2C29A7D07B0095C17F /* LookCardView.swift */; };
+		0BE90A2F29A7D2870095C17F /* Look.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE90A2E29A7D2870095C17F /* Look.swift */; };
+		0BE90A3129A7D2EE0095C17F /* TopLookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE90A3029A7D2EE0095C17F /* TopLookCard.swift */; };
+		0BE90A3529A7D3B70095C17F /* LookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE90A3429A7D3B70095C17F /* LookDetailView.swift */; };
+		0BE90A3729A7D5270095C17F /* LookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE90A3629A7D5270095C17F /* LookListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BE90A1929A7CC350095C17F /* lookbook-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lookbook-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE90A1C29A7CC350095C17F /* lookbook_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lookbook_appApp.swift; sourceTree = "<group>"; };
-		0BE90A1E29A7CC350095C17F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BE90A2029A7CC360095C17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BE90A2329A7CC360095C17F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BE90A2C29A7D07B0095C17F /* LookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookCardView.swift; sourceTree = "<group>"; };
+		0BE90A2E29A7D2870095C17F /* Look.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Look.swift; sourceTree = "<group>"; };
+		0BE90A3029A7D2EE0095C17F /* TopLookCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLookCard.swift; sourceTree = "<group>"; };
+		0BE90A3429A7D3B70095C17F /* LookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookDetailView.swift; sourceTree = "<group>"; };
+		0BE90A3629A7D5270095C17F /* LookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		0BE90A1B29A7CC350095C17F /* lookbook-app */ = {
 			isa = PBXGroup;
 			children = (
+				0BE90A3429A7D3B70095C17F /* LookDetailView.swift */,
+				0BE90A3029A7D2EE0095C17F /* TopLookCard.swift */,
+				0BE90A2E29A7D2870095C17F /* Look.swift */,
 				0BE90A1C29A7CC350095C17F /* lookbook_appApp.swift */,
-				0BE90A1E29A7CC350095C17F /* ContentView.swift */,
+				0BE90A2C29A7D07B0095C17F /* LookCardView.swift */,
+				0BE90A3629A7D5270095C17F /* LookListView.swift */,
 				0BE90A2029A7CC360095C17F /* Assets.xcassets */,
 				0BE90A2229A7CC360095C17F /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BE90A1F29A7CC350095C17F /* ContentView.swift in Sources */,
+				0BE90A3129A7D2EE0095C17F /* TopLookCard.swift in Sources */,
+				0BE90A3729A7D5270095C17F /* LookListView.swift in Sources */,
+				0BE90A2F29A7D2870095C17F /* Look.swift in Sources */,
 				0BE90A1D29A7CC350095C17F /* lookbook_appApp.swift in Sources */,
+				0BE90A2D29A7D07B0095C17F /* LookCardView.swift in Sources */,
+				0BE90A3529A7D3B70095C17F /* LookDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

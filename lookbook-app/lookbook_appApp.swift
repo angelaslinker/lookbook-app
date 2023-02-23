@@ -11,7 +11,7 @@ import SwiftUI
 struct lookbook_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LookListView()
         }
     }
 }
